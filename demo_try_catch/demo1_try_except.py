@@ -7,7 +7,7 @@ class Cartesian:
        def distance(self):
         dimension = self.x**2 + self.y**2 + self.z**2
         radius = math.sqrt(dimension)
-        print("ระยะทางจากจุด (0,0,0) ไปยังจุด (",self.x,",",self.y,",",self.z,")คืิอ","%.2f"%(radius),"หน่วย")
+        print("ระยะทางจากจุด (0,0,0) ไปยังจุด (",self.x,",",self.y,",",self.z,")คืิอ","%.2f"%(radius),"หน่วย")#!จัด format 2 ตน.
 
 if __name__ == "__main__":
  while True:
